@@ -1,11 +1,11 @@
 const Navbar = () => {
   return (
-    <nav className="container bg-white border-gray-200 dark:bg-gray-900">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-white border-b-2 dark:bg-gray-900">
+      <div className="container mx-auto flex flex-wrap items-center justify-between py-8">
         <a href="https://flowbite.com/" className="flex items-center">
           <img
             src="/public/NFters.png"
-            className="h-8 mr-3"
+            className="w-28 h-7"
             alt="Flowbite Logo"
           />
         </a>

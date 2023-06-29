@@ -9,7 +9,17 @@ export default {
         lg: "4rem",
         xl: "5rem",
         "2xl": "6rem",
-      },
+      }
+    },
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+      'display': ['Oswald'],
+      'body': ['Open Sans'],
+      'integral': ["integral", 'sans-serif'],
+      'dm-sans': ['DM Sans', 'sans-serif'],
+      'poppins': ['Poppins', "sans-serif"]
     },
     extend: {},
   },

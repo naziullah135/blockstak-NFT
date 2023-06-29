@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: "integral";
+
+        src: url('/public/fonts/Fontspring-DEMO-integralcf-extrabold.otf') format("otf");
+    }
+}
