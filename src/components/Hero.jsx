@@ -41,8 +41,8 @@ const Hero = () => {
   };
   return (
   <section className="py-16">
-      <div className="container mx-auto flex">
-      <div className="w-3/5">
+      <div className="container mx-auto flex sm:flex-col xl:flex-row">
+      <div className="sm:w-full xl:w-3/5">
         <h1 className="text-[40px] font-integral font-extrabold">DISCOVER, AND COLLECT DIGITAL ART NFTS </h1>
         <p className="font- text-xl pt-6">
           Digital marketplace for crypto collectibles and <br /> non-fungible tokens
@@ -66,8 +66,8 @@ const Hero = () => {
             </div>
         </div>
       </div>
-      <div className="w-2/5 text-center">
-      <div className= 'max-w-[400px] h-full w-full m-auto relative group'>
+      <div className="sm:w-full xl:w-2/5 text-center">
+      <div className= 'max-w-[400px] sm:h-[400px] sm:mt-6 xl:h-full  w-full m-auto relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
