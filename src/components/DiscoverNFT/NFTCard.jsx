@@ -4,7 +4,7 @@ const NFTCard = ({ nft }) => {
   return (
     <div className="col-span-1 bg-[#FFF] p-3 rounded-xl">
       <div>
-        <img src={nft.imgCover} alt="" />
+        <img className="w-full" src={nft.imgCover} alt="" />
       </div>
       <div className="flex mt-[-20px] ml-3">
         <img src={nft.imgUser1} alt="" />
