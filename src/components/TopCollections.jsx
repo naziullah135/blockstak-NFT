@@ -3,32 +3,32 @@ import React from "react";
 const TopCollections = () => {
   return (
     <section className="container mx-auto my-28">
-      <div className="grid grid-cols-3 gap-16">
+      <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-10">
         <div className="col-span-1">
           <div>
             <img width={"100%"} src="/public/top-main.png" alt="" />
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between mt-10">
             <div className="flex">
               <div>
                 <img src="/public/avatar-1.png" alt="" />
               </div>
-              <div>
-                <h3>The Futr Abstr</h3>
-                <p>10 in the stock</p>
+              <div className="pl-2">
+                <h3 className="text-xl font-bold font-dm-sans">The Futr Abstr</h3>
+                <p className="text-sm">10 in the stock</p>
               </div>
             </div>
             <div>
-              <p>Highest Bid</p>
-              <h5 className="flex">
+              <p className="text-[12px] font-medium ">Highest Bid</p>
+              <h5 className="flex pt-2">
                 <img src="/public/ethereum 2.png" alt="" />
-                0.25 ETH
+               <span className="font-bold font-dm-sans text-[#3A3A3A] pl-3"> 0.25 ETH</span>
               </h5>
             </div>
           </div>
         </div>
         <div className="col-span-1">
-          <div className="flex gap-3 mb-6">
+          <div className="flex gap-3 mb-10">
             <div>
               <img src="/public/img-1.png" alt="" />
             </div>
@@ -56,7 +56,7 @@ const TopCollections = () => {
               </button>
             </div>
           </div>
-          <div className="flex gap-3 mb-6">
+          <div className="flex gap-3 mb-10">
             <div>
               <img src="/public/img-2.png" alt="" />
             </div>
@@ -79,12 +79,12 @@ const TopCollections = () => {
 
                 <p>1 of 8</p>
               </div>
-              <button className="outline outline-[#3D00B7] text-[#3D00B7] text-bold text-sm px-6 py-3 font-integral rounded-full">
+              <button className="outline outline-[#3D00B7] outline-2 text-[#3D00B7] font-bold text-sm px-6 py-3 font-integral rounded-full">
                 Place a bid
               </button>
             </div>
           </div>
-          <div className="flex gap-3 mb-6">
+          <div className="flex gap-3">
             <div>
               <img src="/public/img-3.png" alt="" />
             </div>
@@ -107,13 +107,13 @@ const TopCollections = () => {
 
                 <p>1 of 8</p>
               </div>
-              <button className="outline outline-[#3D00B7] text-[#3D00B7] text-sm px-6 py-3 font-integral rounded-full">
+              <button className="outline outline-[#3D00B7]  outline-2 text-[#3D00B7] font-bold text-sm px-6 py-3 font-integral rounded-full">
                 Place a bid
               </button>
             </div>
           </div>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 border-l-2 pl-10">
           <div className="mb-4">
             <h1 className="uppercase text-xl font-integral font-extrabold">
               Top Collections over{" "}
