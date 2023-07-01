@@ -161,7 +161,7 @@ const DiscoverNFT = () => {
     <section className="bg-[#D9E0EC44]">
       <div className="container mx-auto py-12">
         <div>
-          <h1 className="uppercase text-[34px] font-integral font-extrabold">
+          <h1 className="uppercase text-[#000] text-[34px] font-integral font-extrabold tracking-tight">
             Discover more NFTs
           </h1>
         </div>

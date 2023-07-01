@@ -1,4 +1,7 @@
 import React from "react";
+import facebook from '../assets/images/facebook.png';
+import twitter from '../assets/images/twitter.png';
+import linkedin from '../assets/images/linkedin.png';
 
 const Footer = () => {
   return (
@@ -8,15 +11,15 @@ const Footer = () => {
         <h1 className="uppercase text-2xl text-[#000] font-integral font-extrabold">
           NFters
         </h1>
-        <p className="text[#565656] text-sm font-medium py-4">
+        <p className="text-[#565656] text-sm font-medium py-4">
           The world’s first and largest digital marketplace for <br /> crypto
           collectibles and non-fungible tokens (NFTs). <br /> Buy, sell, and
           discover exclusive digital items.2
         </p>
         <div className="flex gap-4">
-          <img src="/public/facebook.png" alt="" />
-          <img src="/public/twitter.png" alt="" />
-          <img src="/public/linkedin.png" alt="" />
+          <img src={facebook} alt="" />
+          <img src={twitter} alt="" />
+          <img src={linkedin} alt="" />
         </div>
       </div>
       <div>
@@ -67,7 +70,7 @@ const Footer = () => {
         <p className="text-[#000] text-lg font-dm-sans font-extrabold pb-4">
           Stay in the loop
         </p>
-        <p className=" text-[#3D3D3D] text-sm font-dm-sans font-medium mb-4">
+        <p className=" text-[#363639] text-sm font-dm-sans font-medium mb-4">
           Join our mailing list to stay in the loop with our newest <br />{" "}
           feature releases, NFT drops, and tips and tricks for <br /> navigating
           NFTs.

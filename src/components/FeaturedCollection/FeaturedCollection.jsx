@@ -1,37 +1,46 @@
 import React from "react";
+import imgUser from '../../assets/images/avatar-1.png';
 import FeatureCard from "./FeatureCard";
+import imgCover from "../../assets/images/top-main.png";
+import imgCover2 from "../../assets/images/main-2.png";
+import imgCover3 from "../../assets/images/main-3.png";
+
+import imgFeature1 from "../../assets/images/feature-1.png"
+import imgFeature2 from "../../assets/images/feature-2.png"
+import imgFeature3 from "../../assets/images/feature-3.png"
+import imgFeature4 from "../../assets/images/feature-4.png"
 
 const featureCollections = [
   {
     id: 1,
-    imgCover: "url('/public/top-main.png')",
-    img1: "url('/public/feature-1.png')",
-    img2:  "url('/public/feature-2.png')",
-    img3:  "url('/public/feature-3.png')",
+    imgCover: imgCover,
+    img1: imgFeature1,
+    img2: imgFeature2,
+    img3:  imgFeature3,
     title: "Amazing Collection",
-    userImg: "/public/avatar-1.png",
+    userImg: imgUser,
     userName: "by Arkhan",
     totalItem: "Total 54 Items",
   },
   {
     id: 2,
-    imgCover: "url('/public/main-2.png')",
-    img1: "url('/public/feature-2.png')",
-    img2:  "url('/public/feature-4.png')",
-    img3:  "url('/public/feature-3.png')",
+    imgCover: imgCover2,
+    img1: imgFeature2,
+    img2:  imgFeature4,
+    img3: imgFeature3,
     title: "Amazing Collection",
-    userImg: "/public/avatar-1.png",
+    userImg: imgUser,
     userName: "by Arkhan",
     totalItem: "Total 54 Items",
   },
   {
     id: 3,
-    imgCover: "url('/public/main-3.png')",
-    img1: "url('/public/feature-3.png')",
-    img2:  "url('/public/feature-4.png')",
-    img3:  "url('/public/feature-2.png')",
+    imgCover: imgCover3,
+    img1: imgFeature3,
+    img2:  imgFeature4,
+    img3: imgFeature2,
     title: "Amazing Collection",
-    userImg: "/public/avatar-1.png",
+    userImg: imgUser,
     userName: "by Arkhan",
     totalItem: "Total 54 Items",
   },
@@ -42,7 +51,7 @@ const FeaturedCollection = () => {
     <section className="bg-[#F7F8FA]">
       <div className="container mx-auto py-16">
         <div className="pb-8">
-          <h1 className="uppercase text-[28px] font-integral font-extrabold ">
+          <h1 className="uppercase tracking-tight text-[#000] text-[28px] font-integral font-extrabold ">
             Collection Featured NFTs
           </h1>
         </div>

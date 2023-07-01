@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import SellNFT from "./components/SellNFT";
 import TopCollections from "./components/TopCollections";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <TopCollections />
       <FeaturedCollection />
+      <SellNFT />
       <DiscoverNFT />
       <Footer />
     </>

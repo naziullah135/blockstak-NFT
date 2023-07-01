@@ -7,8 +7,8 @@ export default {
         DEFAULT: "1rem",
         sm: "2rem",
         lg: "4rem",
-        xl: "5rem",
-        "2xl": "6rem",
+        xl: "6rem",
+        "2xl": "7rem",
       },
     },
     fontFamily: {
@@ -22,13 +22,7 @@ export default {
       poppins: ["Poppins", "sans-serif"],
     },
     extend: {
-      backgroundImage: {
-        "img-1": "url('/public/img-1.png')",
-        "img-2": "url('/public/img-2.png')",
-        "img-3": "url('/public/img-3.png')",
-        "img-main-1": "url('/public/top-main.png')",
-      },
-
+     
     },
   },
   plugins: [require("flowbite/plugin")],

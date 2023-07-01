@@ -1,9 +1,11 @@
+import searchIcon from '../assets/images/search-normal-1 1.png';
+import logo from '../assets/images/NFters.png';
 const Navbar = () => {
   return (
     <nav className="bg-white border-b-2">
       <div className="container mx-auto flex flex-wrap items-center justify-between py-6">
         <div className="flex gap-12">
-          <img src="/public/NFters.png" alt="" />
+          <img src={logo} alt="" />
           <p className="font-dm-sans font-semibold">Marketplace</p>
           <p className="font-dm-sans font-semibold">Resource</p>
           <p className="font-dm-sans font-semibold">About</p>
@@ -12,7 +14,7 @@ const Navbar = () => {
           <form className="flex items-center">
             <div className="relative w-full">
               <div className="absolute inset-y-0 right-4 flex items-center pl-3 pointer-events-none">
-                <img src="/public/search-normal-1 1.png" alt="" />
+                <img src={searchIcon} alt="" />
               </div>
               <input
                 type="text"
