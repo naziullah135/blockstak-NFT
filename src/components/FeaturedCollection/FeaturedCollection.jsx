@@ -1,4 +1,3 @@
-import React from "react";
 import imgUser from '../../assets/images/avatar-1.png';
 import FeatureCard from "./FeatureCard";
 import imgCover from "../../assets/images/top-main.png";
@@ -55,104 +54,10 @@ const FeaturedCollection = () => {
             Collection Featured NFTs
           </h1>
         </div>
-        <div className="grid sm:grid-cols-1 xl:grid-cols-3 gap-8">
-       
+        <div className="grid sm:grid-cols-1 xl:grid-cols-3 gap-8"> 
             {featureCollections.map((feature) => (
               <FeatureCard key={feature.id} feature={feature} />
             ))}
-
-          {/* <div className="col-span-1">
-            <div className="grid md:grid-cols-3">
-              <div className="col-span-2">
-                <img className="h-full" src="/public/main-2.png" alt="" />
-              </div>
-              <div className="col-span-1 pl-4">
-                <img
-                  className="pb-2 w-full"
-                  src="/public/feature-1.png"
-                  alt=""
-                />
-                <img
-                  className="pb-2 w-full"
-                  src="/public/feature-2.png"
-                  alt=""
-                />
-                <img className="w-full" src="/public/feature-3.png" alt="" />
-              </div>
-            </div>
-            <div className="mt-6">
-              <h1 className="text-xl font-bold font-dm-sans">
-                Amazing Collection
-              </h1>
-            </div>
-
-            <div>
-              <div className="flex justify-between items-center pt-3">
-                <div className="flex">
-                  <img
-                    width={28}
-                    height={28}
-                    src="/public/avatar-1.png"
-                    alt=""
-                  />
-                  <p className="text-sm font-dm-sans font-semibold pl-2">
-                    by Arkhan
-                  </p>
-                </div>
-                <div>
-                  <button className="outline outline-[#2639ED] outline-1 text-[#2639ED] text-[11px] font-bold rounded-full px-2 py-1">
-                    Total 54 Items
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="col-span-1">
-            <div className="grid md:grid-cols-3">
-              <div className="col-span-2">
-                <img className="h-full" src="/public/main-3.png" alt="" />
-              </div>
-              <div className="col-span-1 pl-4">
-                <img
-                  className="pb-2 w-full"
-                  src="/public/feature-1.png"
-                  alt=""
-                />
-                <img
-                  className="pb-2 w-full"
-                  src="/public/feature-2.png"
-                  alt=""
-                />
-                <img className="w-full" src="/public/feature-3.png" alt="" />
-              </div>
-            </div>
-            <div className="mt-6">
-              <h1 className="text-xl font-bold font-dm-sans">
-                Amazing Collection
-              </h1>
-            </div>
-
-            <div>
-              <div className="flex justify-between items-center pt-3">
-                <div className="flex">
-                  <img
-                    width={28}
-                    height={28}
-                    src="/public/avatar-1.png"
-                    alt=""
-                  />
-                  <p className="text-sm font-dm-sans font-semibold pl-2">
-                    by Arkhan
-                  </p>
-                </div>
-                <div>
-                  <button className="outline outline-[#2639ED] outline-1 text-[#2639ED] text-[11px] font-bold rounded-full px-2 py-1">
-                    Total 54 Items
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

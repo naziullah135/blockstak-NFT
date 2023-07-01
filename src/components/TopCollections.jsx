@@ -1,4 +1,3 @@
-import React from "react";
 import imgCover from "../assets/images/top-main.png";
 import imgUser from '../assets/images/avatar-1.png';
 import etherium from '../assets/images/Frame 6.png';
@@ -13,7 +12,7 @@ import img3 from '../assets/images/img-3.png';
 
 const TopCollections = () => {
   return (
-    <section className="container mx-auto my-28">
+    <section className="container mx-auto py-28">
       <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-12">
         <div className="col-span-1">
           <div>

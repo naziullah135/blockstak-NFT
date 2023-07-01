@@ -1,9 +1,8 @@
-import React from "react";
-import imgNFT1 from '../assets/images/main-2.png';
-import imgNFT2 from '../assets/images/ownNft-2.png';
-import imgNFT3 from '../assets/images/ownNFT-3.png';
-import owner1 from '../assets/images/avatar-2.png'
-import owner2 from '../assets/images/avatar1.2.png'
+import imgNFT1 from "../assets/images/main-2.png";
+import imgNFT2 from "../assets/images/ownNft-2.png";
+import imgNFT3 from "../assets/images/ownNFT-3.png";
+import owner1 from "../assets/images/avatar-2.png";
+import owner2 from "../assets/images/avatar1.2.png";
 
 const SellNFT = () => {
   return (
@@ -11,32 +10,24 @@ const SellNFT = () => {
       <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 items-center">
         <div className="col-span-1">
           <div className="flex justify-end items-center">
-            <div className="w-1/2">
+            <div className="sm:w-full  md:w-1/2 xl:w1/2">
               <div className="flex justify-end">
                 <div className="indicator">
-                  <span className="indicator-item indicator-start sm:indicator-middle md:indicator-bottom lg:indicator-center xl:indicator-end ">
+                  <span className="indicator-item indicator-start md:indicator-bottom lg:indicator-center  xl:indicator-end">
                     <img src={owner2} alt="" />
                   </span>
                   <div className="grid w-[300px] h-[300px] place-items-center">
-                    <img
-                      className="w-full h-full"
-                      src={imgNFT1}
-                      alt=""
-                    />
+                    <img className="w-full h-full" src={imgNFT1} alt="" />
                   </div>
                 </div>
               </div>
               <div className="flex justify-end mt-12">
                 <div className="indicator">
-                  <span className="indicator-item indicator-start sm:indicator-middle md:indicator-bottom lg:indicator-center xl:indicator-end ">
-                    <img src={owner1}alt="" />
+                  <span className="indicator-item indicator-start md:indicator-bottom lg:indicator-center xl:indicator-end ">
+                    <img src={owner1} alt="" />
                   </span>
                   <div className="grid w-[195px] h-[214px] place-items-center">
-                    <img
-                      className="w-full h-full"
-                      src={imgNFT2}
-                      alt=""
-                    />
+                    <img className="w-full h-full" src={imgNFT2} alt="" />
                   </div>
                 </div>
               </div>
@@ -44,15 +35,11 @@ const SellNFT = () => {
             <div className="w-1/2">
               <div className="flex justify-end">
                 <div className="indicator">
-                  <span className="indicator-item indicator-start sm:indicator-middle md:indicator-bottom lg:indicator-center xl:indicator-end ">
+                  <span className="indicator-item indicator-start md:indicator-bottom lg:indicator-center xl:indicator-end ">
                     <img src={owner1} alt="" />
                   </span>
                   <div className="grid w-[241px] h-[265px] place-items-center">
-                    <img
-                      className="w-full h-full"
-                      src={imgNFT3}
-                      alt=""
-                    />
+                    <img className="w-full h-full" src={imgNFT3} alt="" />
                   </div>
                 </div>
               </div>

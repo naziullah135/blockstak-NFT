@@ -1,4 +1,3 @@
-import React from "react";
 
 const FeatureCard = ({feature}) => {
   return (
@@ -8,15 +7,11 @@ const FeatureCard = ({feature}) => {
           className='xl:w-2/3 bg-no-repeat bg-cover h-full  rounded-xl'
           style={{backgroundImage: `url(${feature.imgCover})`, height: "calc(100%)" }}
         >
-          {/* <img className="h-full w-full" src="/public/top-main.png" alt="" /> */}
         </div>
         <div className="flex xl:w-1/3 xl:ml-4 sm:w-full xl:flex-col sm:flex-row sm:flex-nowrap sm:mt-2 xl:mt-0">
           <div style={{backgroundImage: `url(${feature.img1})`}} className="xl:w-full xl:h-1/3 sm:w-1/3 sm:h-[100px] sm:m-0 rounded-xl bg-no-repeat bg-cover"></div>
           <div  style={{backgroundImage: `url(${feature.img2})`}} className="xl:w-full xl:h-1/3 sm:w-1/3 sm:h-full xl:mt-2 sm:ml-2  xl:ml-0 rounded-xl bg-no-repeat bg-cover"></div>
           <div  style={{backgroundImage: `url(${feature.img3})`}} className="xl:w-full xl:h-1/3 sm:w-1/3 sm:h-full xl:mt-2 sm:ml-2  xl:ml-0 rounded-xl bg-no-repeat bg-cover"></div>
-          {/* <img className="pb-2" src="/public/feature-1.png" alt="" /> */}
-          {/* <img className="pb-2" src="/public/feature-2.png" alt="" /> */}
-          {/* <img className=" " src="/public/feature-3.png" alt="" /> */}
         </div>
       </div>
       <div className="mt-6">
